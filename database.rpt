@@ -1,0 +1,70 @@
+{
+  "version": 14,
+  "tests": [],
+  "testBatches": [
+    {
+      "id": "0",
+      "title": "Batch 1 - Pixel 3a",
+      "tests": [
+        "a489bfef-dcaf-0930-303c-09417dc2edb1",
+        "2cf8ece4-700c-89ec-5ff6-e7578a7f3b5d"
+      ],
+      "exceptionHandlers": []
+    }
+  ],
+  "folders": {
+    "id": "ROOT_TREE_NODE_ID",
+    "title": "All tests",
+    "active": false,
+    "expanded": true,
+    "children": [
+      {
+        "id": "default-node",
+        "title": "Recorded tests",
+        "active": false,
+        "expanded": true,
+        "children": [
+          "a489bfef-dcaf-0930-303c-09417dc2edb1",
+          "2cf8ece4-700c-89ec-5ff6-e7578a7f3b5d"
+        ]
+      }
+    ]
+  },
+  "batchRunner": {
+    "testBatch": "0",
+    "currentExceptionHandlerIndex": 0,
+    "currentTestIndex": 1,
+    "testRunner": {
+      "id": "ffb008b1-bb30-db75-69b0-b586df5bc28d",
+      "currentTest": "2cf8ece4-700c-89ec-5ff6-e7578a7f3b5d",
+      "currentStepIndex": 1,
+      "stopExecutionOnStepIndex": -1,
+      "defaultSearchTimeout": 8000,
+      "subTestRunners": [],
+      "rootTestRunner": "ffb008b1-bb30-db75-69b0-b586df5bc28d"
+    },
+    "batchRun": {
+      "id": "c20c1173-3233-066b-9290-d7d094b88509",
+      "batchId": "0",
+      "title": "Batch 1 - Pixel 3a",
+      "tests": [
+        "a489bfef-dcaf-0930-303c-09417dc2edb1",
+        "2cf8ece4-700c-89ec-5ff6-e7578a7f3b5d"
+      ],
+      "testRuns": [],
+      "createdOn": 1654630585481,
+      "stats": {
+        "totalCount": 2,
+        "successCount": 0,
+        "duration": "00:00:26",
+        "failCount": 2,
+        "stepsCount": 4
+      }
+    },
+    "exportMaxImageSize": 800
+  },
+  "recorder": {
+    "isRecording": false,
+    "testDirty": false
+  }
+}
