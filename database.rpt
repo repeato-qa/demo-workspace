@@ -1,13 +1,22 @@
 {
-  "version": 14,
+  "version": 15,
   "tests": [],
   "testBatches": [
     {
       "id": "0",
-      "title": "Batch 1 - Pixel 3a",
+      "title": "Batch 1 - Pixel 3a (API 30)",
       "tests": [
         "a489bfef-dcaf-0930-303c-09417dc2edb1",
         "2cf8ece4-700c-89ec-5ff6-e7578a7f3b5d"
+      ],
+      "exceptionHandlers": []
+    },
+    {
+      "id": "0bcb7412-2887-bbe1-8f8f-68fa5a9c5d6e",
+      "title": "Batch 2 - Pixel 3a (API 29)",
+      "tests": [
+        "e3c481a7-44cd-66d2-06e5-4e72acba0494",
+        "dc0b529f-a445-158c-e85d-d5ede15d5e2e"
       ],
       "exceptionHandlers": []
     }
@@ -25,40 +34,42 @@
         "expanded": true,
         "children": [
           "a489bfef-dcaf-0930-303c-09417dc2edb1",
-          "2cf8ece4-700c-89ec-5ff6-e7578a7f3b5d"
+          "2cf8ece4-700c-89ec-5ff6-e7578a7f3b5d",
+          "e3c481a7-44cd-66d2-06e5-4e72acba0494",
+          "dc0b529f-a445-158c-e85d-d5ede15d5e2e"
         ]
       }
     ]
   },
   "batchRunner": {
-    "testBatch": "0",
+    "testBatch": "0bcb7412-2887-bbe1-8f8f-68fa5a9c5d6e",
     "currentExceptionHandlerIndex": 0,
     "currentTestIndex": 1,
     "testRunner": {
-      "id": "ffb008b1-bb30-db75-69b0-b586df5bc28d",
-      "currentTest": "2cf8ece4-700c-89ec-5ff6-e7578a7f3b5d",
-      "currentStepIndex": 1,
+      "id": "898fac70-e8b8-19b3-7dec-fff3a1c04e88",
+      "currentTest": "dc0b529f-a445-158c-e85d-d5ede15d5e2e",
+      "currentStepIndex": 0,
       "stopExecutionOnStepIndex": -1,
       "defaultSearchTimeout": 8000,
       "subTestRunners": [],
-      "rootTestRunner": "ffb008b1-bb30-db75-69b0-b586df5bc28d"
+      "rootTestRunner": "898fac70-e8b8-19b3-7dec-fff3a1c04e88"
     },
     "batchRun": {
-      "id": "c20c1173-3233-066b-9290-d7d094b88509",
-      "batchId": "0",
-      "title": "Batch 1 - Pixel 3a",
+      "id": "27cd1207-4876-11c6-30e7-91e13c86e21f",
+      "batchId": "0bcb7412-2887-bbe1-8f8f-68fa5a9c5d6e",
+      "title": "Batch 2 - Pixel 3a (API 29)",
       "tests": [
-        "a489bfef-dcaf-0930-303c-09417dc2edb1",
-        "2cf8ece4-700c-89ec-5ff6-e7578a7f3b5d"
+        "e3c481a7-44cd-66d2-06e5-4e72acba0494",
+        "dc0b529f-a445-158c-e85d-d5ede15d5e2e"
       ],
       "testRuns": [],
-      "createdOn": 1654630585481,
+      "createdOn": 1661266021928,
       "stats": {
         "totalCount": 2,
-        "successCount": 0,
-        "duration": "00:00:26",
-        "failCount": 2,
-        "stepsCount": 4
+        "successCount": 2,
+        "duration": "00:00:13.754",
+        "failCount": 0,
+        "stepsCount": 14
       }
     },
     "exportMaxImageSize": 800
@@ -66,5 +77,6 @@
   "recorder": {
     "isRecording": false,
     "testDirty": false
-  }
+  },
+  "schedules": []
 }
