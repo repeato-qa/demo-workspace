@@ -1,5 +1,5 @@
 {
-  "version": 15,
+  "version": 14,
   "tests": [],
   "testBatches": [
     {
@@ -46,13 +46,13 @@
     "currentExceptionHandlerIndex": 0,
     "currentTestIndex": 1,
     "testRunner": {
-      "id": "898fac70-e8b8-19b3-7dec-fff3a1c04e88",
+      "id": "38d8818c-f3dd-a5c3-1b20-2e07333b0968",
       "currentTest": "dc0b529f-a445-158c-e85d-d5ede15d5e2e",
-      "currentStepIndex": 0,
+      "currentStepIndex": 6,
       "stopExecutionOnStepIndex": -1,
       "defaultSearchTimeout": 8000,
       "subTestRunners": [],
-      "rootTestRunner": "898fac70-e8b8-19b3-7dec-fff3a1c04e88"
+      "rootTestRunner": "38d8818c-f3dd-a5c3-1b20-2e07333b0968"
     },
     "batchRun": {
       "id": "27cd1207-4876-11c6-30e7-91e13c86e21f",
