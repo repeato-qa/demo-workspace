@@ -28,6 +28,15 @@
         "ab9b148b-af41-f843-e399-2c78fe7874a4"
       ],
       "exceptionHandlers": []
+    },
+    {
+      "id": "8dd66481-5d1f-5876-d3f7-106677ba8215",
+      "title": "Batch 4 - Pixel 3a (API 29 - Random Clicks)",
+      "tests": [
+        "4040eeb2-ce13-08d7-0a37-5d1c8c1b5515",
+        "739beffd-cc07-1b72-8018-0886cdad7a2a"
+      ],
+      "exceptionHandlers": []
     }
   ],
   "folders": {
@@ -47,17 +56,19 @@
           "e3c481a7-44cd-66d2-06e5-4e72acba0494",
           "dc0b529f-a445-158c-e85d-d5ede15d5e2e",
           "d3298a1b-f550-c391-1525-eb334ac62591",
-          "ab9b148b-af41-f843-e399-2c78fe7874a4"
+          "ab9b148b-af41-f843-e399-2c78fe7874a4",
+          "739beffd-cc07-1b72-8018-0886cdad7a2a",
+          "4040eeb2-ce13-08d7-0a37-5d1c8c1b5515"
         ]
       }
     ]
   },
   "batchRunner": {
-    "testBatch": "38a62ec6-9f1b-bff9-1330-d2c99e0dc6e2",
+    "testBatch": "8dd66481-5d1f-5876-d3f7-106677ba8215",
     "currentExceptionHandlerIndex": 0,
     "currentTestIndex": 1,
     "testRunner": {
-      "id": "e4d7526b-a156-4007-6b1e-b6e87c008e8a",
+      "id": "52f8eef1-0185-1ef8-769f-8232c0392af9",
       "currentStepIndex": 0,
       "stopExecutionOnStepIndex": -1,
       "defaultSearchTimeout": 8000,
