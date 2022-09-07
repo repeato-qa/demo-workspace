@@ -16,8 +16,7 @@
       "title": "Batch 2 - Pixel 3a (API 29)",
       "tests": [
         "e3c481a7-44cd-66d2-06e5-4e72acba0494",
-        "dc0b529f-a445-158c-e85d-d5ede15d5e2e",
-        "e3c481a7-44cd-66d2-06e5-4e72acba0494",
+        "b4c143aa-4e02-4c57-10cb-750fe68e9f86",
         "dc0b529f-a445-158c-e85d-d5ede15d5e2e"
       ],
       "exceptionHandlers": []
@@ -71,7 +70,8 @@
           "ab9b148b-af41-f843-e399-2c78fe7874a4",
           "739beffd-cc07-1b72-8018-0886cdad7a2a",
           "4040eeb2-ce13-08d7-0a37-5d1c8c1b5515",
-          "7aa00c9a-c1d6-a080-2c51-3b957a56c5c6"
+          "7aa00c9a-c1d6-a080-2c51-3b957a56c5c6",
+          "b4c143aa-4e02-4c57-10cb-750fe68e9f86"
         ]
       }
     ]
@@ -79,30 +79,33 @@
   "batchRunner": {
     "testBatch": "0bcb7412-2887-bbe1-8f8f-68fa5a9c5d6e",
     "currentExceptionHandlerIndex": 0,
-    "currentTestIndex": 0,
+    "currentTestIndex": 2,
     "testRunner": {
-      "id": "fe34da6b-0555-2eda-9e1d-9d9c007758d1",
-      "currentStepIndex": 0,
+      "id": "8079d381-5b5c-3413-a670-c7a9049f6ec9",
+      "currentTest": "dc0b529f-a445-158c-e85d-d5ede15d5e2e",
+      "currentStepIndex": 6,
       "stopExecutionOnStepIndex": -1,
       "defaultSearchTimeout": 8000,
-      "subTestRunners": []
+      "subTestRunners": [],
+      "rootTestRunner": "8079d381-5b5c-3413-a670-c7a9049f6ec9"
     },
     "batchRun": {
-      "id": "27cd1207-4876-11c6-30e7-91e13c86e21f",
+      "id": "972e0df3-d262-69ee-fbbc-23bece3b004d",
       "batchId": "0bcb7412-2887-bbe1-8f8f-68fa5a9c5d6e",
       "title": "Batch 2 - Pixel 3a (API 29)",
       "tests": [
         "e3c481a7-44cd-66d2-06e5-4e72acba0494",
+        "b4c143aa-4e02-4c57-10cb-750fe68e9f86",
         "dc0b529f-a445-158c-e85d-d5ede15d5e2e"
       ],
       "testRuns": [],
-      "createdOn": 1661266021928,
+      "createdOn": 1662564504112,
       "stats": {
-        "totalCount": 2,
-        "successCount": 2,
-        "duration": "00:00:13.754",
+        "totalCount": 3,
+        "successCount": 3,
+        "duration": "00:00:26",
         "failCount": 0,
-        "stepsCount": 14
+        "stepsCount": 24
       }
     },
     "exportMaxImageSize": 800
