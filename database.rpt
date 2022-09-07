@@ -81,16 +81,16 @@
     "currentExceptionHandlerIndex": 0,
     "currentTestIndex": 2,
     "testRunner": {
-      "id": "8079d381-5b5c-3413-a670-c7a9049f6ec9",
+      "id": "c04f01b4-fb2c-cc8e-1a1f-2a37ff405ab0",
       "currentTest": "dc0b529f-a445-158c-e85d-d5ede15d5e2e",
       "currentStepIndex": 6,
       "stopExecutionOnStepIndex": -1,
       "defaultSearchTimeout": 8000,
       "subTestRunners": [],
-      "rootTestRunner": "8079d381-5b5c-3413-a670-c7a9049f6ec9"
+      "rootTestRunner": "c04f01b4-fb2c-cc8e-1a1f-2a37ff405ab0"
     },
     "batchRun": {
-      "id": "972e0df3-d262-69ee-fbbc-23bece3b004d",
+      "id": "dbfcf11c-bf9c-96c6-fab1-a01eab9026bc",
       "batchId": "0bcb7412-2887-bbe1-8f8f-68fa5a9c5d6e",
       "title": "Batch 2 - Pixel 3a (API 29)",
       "tests": [
@@ -99,13 +99,13 @@
         "dc0b529f-a445-158c-e85d-d5ede15d5e2e"
       ],
       "testRuns": [],
-      "createdOn": 1662564504112,
+      "createdOn": 1662569064508,
       "stats": {
         "totalCount": 3,
         "successCount": 3,
-        "duration": "00:00:26",
+        "duration": "00:00:14",
         "failCount": 0,
-        "stepsCount": 24
+        "stepsCount": 20
       }
     },
     "exportMaxImageSize": 800
