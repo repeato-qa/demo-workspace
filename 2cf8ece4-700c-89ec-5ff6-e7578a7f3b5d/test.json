@@ -18,7 +18,7 @@
         {
             "id": "5bc719f0-0986-73a0-c5c2-d99d767ea475",
             "originalFrame": "dceb5e45-634a-bbc0-3187-90dd081b8ead_frame.jpg",
-            "timeout": 40000,
+            "timeout": 40,
             "type": "click",
             "optional": false,
             "createdOn": 1654630513923,
